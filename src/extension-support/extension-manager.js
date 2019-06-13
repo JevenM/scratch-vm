@@ -24,8 +24,12 @@ const builtinExtensions = {
     makeymakey: () => require('../extensions/scratch3_makeymakey'),
     boost: () => require('../extensions/scratch3_boost'),
     gdxfor: () => require('../extensions/scratch3_gdx_for'),
-    //第一个自己的拓展
-    helloworld:() => require('../extensions/scratch3_hello_world'),
+    //第一个拓展: 自动模式
+    autopilotauto:() => require('../extensions/scratch3_auto_pilot_auto'),
+    //手动模式
+    autopilotmanual:() => require('../extensions/scratch3_auto_pilot_manual'),
+    //训练模式
+    autopilottrain:() => require('../extensions/scratch3_auto_pilot_train'),
 };
 
 /**
