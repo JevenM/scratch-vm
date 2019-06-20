@@ -30,6 +30,7 @@ const builtinExtensions = {
     autopilotmanual:() => require('../extensions/scratch3_auto_pilot_manual'),
     //训练模式
     autopilottrain:() => require('../extensions/scratch3_auto_pilot_train'),
+    knn:() => require('../extensions/scratch3_knn'),
 };
 
 /**
